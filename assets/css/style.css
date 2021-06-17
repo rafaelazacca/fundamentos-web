@@ -12,6 +12,7 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    margin-top: 20px
 }
 
 #menu li{
@@ -30,9 +31,9 @@
     color:dimgrey
 }
 
-.p30 {
+.p-50 {
 
-    padding: 30px
+    padding: 50px
 }
 
 .tm-social {
@@ -43,6 +44,11 @@
 
 .mb-50 {
         margin-bottom: 50px ;
+}
+
+.ml-60 {
+
+    margin-left: 60px;
 }
 
 
