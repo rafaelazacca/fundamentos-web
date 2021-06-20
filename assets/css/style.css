@@ -7,12 +7,53 @@
     text-align: justify;
 }
 
+.full {
+
+    width: 100vw;
+}
+
+/*Tamanho da fonte do parágrafo*/
+.p {
+    font-size: 20px;
+    color:black;
+        }
+.h1 {
+    font-size: 50px; 
+    color: blanchedalmond;
+}
+
+.h2 {
+    font-size: 30px;
+    color:blanchedalmond
+}
+
+
+/*container do vídeo*/
 .container {
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
     margin-top: 20px
+}
+
+/*.container1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px
+}*/
+
+#menu {
+    margin: 10px 0;
+    padding: 15px 0;
+    width: 100%;
+    background-color:#e9c9eb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: -1px;
 }
 
 #menu li{
@@ -28,33 +69,35 @@
 }
 
 #menu li a:hover{
-    color:rgb(189, 155, 245)
+    color:rgb(80, 13, 236)
 }
 
+/*Parágrafo e distancia da foto*/
 .p-50 {
 
-    padding: 70px
+    padding: 80px
 }
 
 .tm-social {
-    width: 50px;
-    height: 50px;
-    padding: 30px;
+    width: 30px;
+    height: 30px;
+    padding: 15px;
 }
 
+/*Margem das redes*/
 .mb-50 {
-        margin-bottom: 50px ;
+        margin-bottom: 10px ;
 }
 
+/*Margem do título*/
 .ml-60 {
     
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 .pt-20 {
-    padding-top: 20px;
+    padding-top: 80px;
 }
-
 
 
 /*Estilos da página contato.html*/
@@ -62,3 +105,4 @@
 .ml-50{
     margin-left: 50px;
 }
+

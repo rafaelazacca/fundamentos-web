@@ -28,8 +28,8 @@ function validaNome() {
         
     } else {
         txtNome.innerHTML = 'Nome Válido'
-        txtNome.style.color = 'green'
-        let nomeOk = true
+        txtNome.style.color = 'blue'
+        nomeOk = true
     }
 }
 
@@ -42,8 +42,8 @@ function validaEmail() {
 
     }else {
         txtEmail.innerHTML = 'E-mail válido!'
-        txtEmail.style.color = 'green'
-        let nomeOk = true  
+        txtEmail.style.color = 'blue'
+        emailOk = true  
     }
 
 }
@@ -53,11 +53,11 @@ function validaAssunto () {
 
     if (assunto.value.length >= 100 ) {
         txtAssunto.innerHTML = '<h1>Texto muito grande!</h1>'
-        txtAssunto.style.color = 'red'
+        txtAssunto.style.color = 'blue'
         txtAssunto.style.display = 'block'
     } else {
         txtAssunto.style.display = 'none'
-        let assuntoOk = true
+        assuntoOk = true
     }
 }
 
